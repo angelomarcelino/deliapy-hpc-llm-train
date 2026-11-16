@@ -1,0 +1,27 @@
+# Arquivos locais de contexto/identidade para agentes de IA (não versionar dados pessoais)
+AGENTS.local.md
+.agent/rules/local.md
+.env
+.env.*
+!.env.example
+
+# Ambientes virtuais e cache Python / Poetry
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+
+# Artefatos de build / Cython / distribuição
+build/
+dist/
+*.egg-info/
+*.so
+*.o
+
+# Logs e saídas temporárias de jobs do SLURM / testes DeLIA
+slurm-*.out
+*.out
+*.err
+.test_tmp_*
